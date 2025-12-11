@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cuv4vme4rwno0"]
+[gd_scene load_steps=13 format=3 uid="uid://cuv4vme4rwno0"]
 
 [ext_resource type="Script" uid="uid://dt6cku0034183" path="res://main/game.gd" id="1_hlcqn"]
 [ext_resource type="PackedScene" uid="uid://b6rrgs2sjev50" path="res://features/ui/menu_bar/menu_bar_ui.tscn" id="2_v3ojx"]
@@ -11,8 +11,14 @@
 [ext_resource type="PackedScene" uid="uid://b720h7akivni2" path="res://features/world_objects/bush/bush.tscn" id="9_5prg3"]
 [ext_resource type="FontFile" uid="uid://c53kogtyjwsss" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="10_ompsl"]
 [ext_resource type="PackedScene" uid="uid://bjepgwbger5by" path="res://features/ui/inventory/inventory_ui.tscn" id="11_yu8fu"]
+[ext_resource type="Texture2D" uid="uid://b8mgpkqv0dok6" path="res://assets/Sprites/grassy.png" id="12_v3ojx"]
 
 [node name="Game" type="Node2D"]
+
+[node name="Grassy" type="Sprite2D" parent="."]
+position = Vector2(-16, 59)
+scale = Vector2(1.64028, 1.64028)
+texture = ExtResource("12_v3ojx")
 
 [node name="GameController" type="Node" parent="." node_paths=PackedStringArray("ui_canvas")]
 unique_name_in_owner = true
