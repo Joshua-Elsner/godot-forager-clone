@@ -29,11 +29,13 @@ enet_network_scene = ExtResource("5_0coyo")
 steam_network_scene = ExtResource("6_p6qvs")
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("uid://d226nufmlvivj")
 spawn_path = NodePath("../Players")
 spawn_limit = 10
 
 [node name="BuildingSpawner" type="MultiplayerSpawner" parent="."]
 unique_name_in_owner = true
+_spawnable_scenes = PackedStringArray("uid://tkxeqj82osyv")
 spawn_path = NodePath("../Buildings")
 spawn_limit = 10
 

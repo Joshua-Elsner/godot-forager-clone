@@ -11,6 +11,9 @@ const SPEED = 250.0
 		%InputSynchronizer.set_multiplayer_authority(id)
 
 func _ready():
+	for child in get_children():
+		print(" - ", child.name)
+		
 	# this camera is enabled only for the player instance this client controls
 	if multiplayer.get_unique_id() == player_id:
 		print("This player is MINE. Enabling camera.")
