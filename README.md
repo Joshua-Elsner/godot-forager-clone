@@ -1,3 +1,7 @@
+
+![forager_demo_2](https://github.com/user-attachments/assets/38d94e7e-fe62-4dab-9e82-43b7a2d18198)
+
+
 # Godot Online Multiplayer Forager Clone
 
 This repository documents my personal learning project focused on building a multiplayer survival and crafting game using the **Godot Engine (4.4)** inspired by the game loop of the game Forager by HopFrog. My goal was to learn server-authoritative architecture and Godot Steam's networking capabilities. I built this project with an attempt on modular design.
